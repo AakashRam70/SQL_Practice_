@@ -1,0 +1,23 @@
+create database aakash
+use aakash
+create table result(
+fname char(30),
+roll_no int,
+class int,
+marks float,
+grade varchar(2)
+)
+
+insert into result(fname, roll_no, class, marks, grade)
+values ('Aakash Rambhad', '5', '10', '74', 'B')
+
+insert into result(fname, roll_no, class, marks, grade)
+values ('Devansh Bhagat', '52', '10', '65', 'C')
+
+insert into result(fname, roll_no, class, marks, grade)
+values ('Sunit Mankar', '14', '10', '88', 'A')
+
+insert into result(fname, roll_no, class, marks, grade)
+values ('Saurabh Raut', '29', '10', '93', 'A')
+
+select * from result
